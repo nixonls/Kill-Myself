@@ -1,0 +1,225 @@
+user@DESKTOP-6AIMSJ7 MINGW64 ~ (master)
+$ cd E:
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e
+$ dir
+$RECYCLE.BIN  msdownld.tmp  SteamLibrary                 Windows10Upgrade
+CV            Python        SteamSetup.exe               xampp
+Github        Python\ Book  System\ Volume\ Information
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e
+$ cd github
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github (master)
+$ dir
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github (master)
+$ git init
+Reinitialized existing Git repository in E:/Github/.git/
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+Did you mean this?
+        add
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github (master)
+$ git add .
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github (master)
+$ git add .
+warning: LF will be replaced by CRLF in Test/.idea/Test.iml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Test/.idea/misc.xml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Test/.idea/modules.xml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Test/.idea/workspace.xml.
+The file will have its original line endings in your working directory.
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github (master)
+$ dir
+Test
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github (master)
+$ git add .
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github (master)
+$ git commit -m "Trying to commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'user@DESKTOP-6AIMSJ7.(none)')
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github (master)
+$ git config --global user.name "veronika98stephanie"
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github (master)
+$ git commit -m "Trying to commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'user@DESKTOP-6AIMSJ7.(none)')
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github (master)
+$ git remote add origin 9fd73fbaf29743be43e9f8182694f1b92f4fbeb4
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github (master)
+$ git remote -v
+origin  9fd73fbaf29743be43e9f8182694f1b92f4fbeb4 (fetch)
+origin  9fd73fbaf29743be43e9f8182694f1b92f4fbeb4 (push)
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github (master)
+$ git push origin master
+error: src refspec master does not match any.
+error: failed to push some refs to '9fd73fbaf29743be43e9f8182694f1b92f4fbeb4'
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github (master)
+$ git colone https://github.com/veronika98stephanie/Testing-Python.git
+git: 'colone' is not a git command. See 'git --help'.
+
+Did you mean this?
+        clone
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github (master)
+$ git clone https://github.com/veronika98stephanie/Testing-Python.git
+Cloning into 'Testing-Python'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github (master)
+$ git remote -v
+origin  9fd73fbaf29743be43e9f8182694f1b92f4fbeb4 (fetch)
+origin  9fd73fbaf29743be43e9f8182694f1b92f4fbeb4 (push)
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github (master)
+$ git add .
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github (master)
+$ dir
+Testing-Python
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github (master)
+$ cd Testing-Python
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github/Testing-Python (master)
+$ git add .
+warning: LF will be replaced by CRLF in Test/.idea/Test.iml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Test/.idea/misc.xml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Test/.idea/modules.xml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in Test/.idea/workspace.xml.
+The file will have its original line endings in your working directory.
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github/Testing-Python (master)
+$ git remote -v
+origin  https://github.com/veronika98stephanie/Testing-Python.git (fetch)
+origin  https://github.com/veronika98stephanie/Testing-Python.git (push)
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github/Testing-Python (master)
+$ git commit -m "trying to commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'user@DESKTOP-6AIMSJ7.(none)')
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github/Testing-Python (master)
+$ git config --global user.email "stephanie.veronika@hotmail.com"
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github/Testing-Python (master)
+$ git commit -m "trying to commit"
+[master 3519ee5] trying to commit
+ 5 files changed, 182 insertions(+)
+ create mode 100644 Test/.idea/Test.iml
+ create mode 100644 Test/.idea/misc.xml
+ create mode 100644 Test/.idea/modules.xml
+ create mode 100644 Test/.idea/workspace.xml
+ create mode 100644 Test/Trying github.py
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github/Testing-Python (master)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com/':
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github/Testing-Python (master)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com/': veronika98stephanie
+Counting objects: 9, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (9/9), 2.96 KiB | 0 bytes/s, done.
+Total 9 (delta 0), reused 0 (delta 0)
+To https://github.com/veronika98stephanie/Testing-Python.git
+   9fd73fb..3519ee5  master -> master
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github/Testing-Python (master)
+$ git pull
+Already up-to-date.
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github/Testing-Python (master)
+$ git add .
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github/Testing-Python (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   Test/Trying github.py
+
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github/Testing-Python (master)
+$ git add .
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github/Testing-Python (master)
+$ git remote -v
+origin  https://github.com/veronika98stephanie/Testing-Python.git (fetch)
+origin  https://github.com/veronika98stephanie/Testing-Python.git (push)
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github/Testing-Python (master)
+$ git commit -m "Trying to see the differences"
+[master 18d65b3] Trying to see the differences
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github/Testing-Python (master)
+$ git push
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 455 bytes | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/veronika98stephanie/Testing-Python.git
+   3519ee5..18d65b3  master -> master
+
+user@DESKTOP-6AIMSJ7 MINGW64 /e/github/Testing-Python (master)
+$
